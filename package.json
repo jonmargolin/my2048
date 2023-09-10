@@ -1,0 +1,19 @@
+{
+    "name": "2048",
+    "version": "1.0.0",
+    "main": "main.ts",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc --build",
+        "clean": "tsc --build --clean",
+        "dev": "tsc  ./src/main.ts",
+        "format": "prettier --ignore-unknown --write ."
+    },
+    "dependencies": {
+        "typescript": "^5.2.2"
+    },
+    "devDependencies": {
+        "@types/node": "^20.5.9",
+        "prettier": "3.0.3"
+    }
+}
